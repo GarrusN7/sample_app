@@ -1,0 +1,56 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "custom";
+/* universal */
+
+body.About {
+  background: url(when_the_very_ground_flies_by_rshupe-d3j62vx.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #D9CFBD;
+  h1 {
+    color: #403E0B;
+  }
+  h2 {
+    color: #09010B;
+  }
+  footer {
+    color: #F4F1ED;
+    border-top: 1px solid #F4F1ED;
+    a {
+      color: #F4F1ED;
+      &:hover {
+        color: #8A714A;
+        }
+      }
+
+  }
+}
+
+.navbar-inverse {
+  background-color: #7D0727;
+}
+
+.navbar-inverse
+.navbar-nav > li > a {
+  color: #777777;
+}
+
+
+/* typography */
+
+
+a {
+  color: #7D0727;
+}
+
+
+/* header */
+
+#logo {
+  color: #D9CFBD;
+  &:hover {
+    color: #8A714A;
+  }
+}
+
+/* footer */
